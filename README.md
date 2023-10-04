@@ -1,16 +1,16 @@
-#program to find first n natural numbers
-#requrements are 
-#n be passe as an argument
-#cal first n natural numbers
+#write a user defined function  to add 2 numbers and display thier sum
+#function two add two num bers
+# #requirements are listed below:
+#we need two numbers accepted from user
+#their sum
 #display the sum
 
 #code
-def sumsquares(n):
-    sum=0
-    for i in range(1,n+1):
-        sum=sum+i
-    print("the sum of first",n ,"natural numbers is",sum)
+def addnum():
+    fnum=int(input("enetr the fuitrst number:"))
+    snum=int(input("enetr the second number:"))
+    sum=fnum+snum
+    print("the sum of ",fnum,"and",snum,"is ",sum)
     #function ends here
-#ask number of to be foun natural numbers
-num=int(input("enetr the value for n :"))
-sumsquares(num)
+#function c alling
+addnum()
